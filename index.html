@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-icons.css" />
+    <link rel="stylesheet" href="stylesheets/css2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="stylesheets/font-awesome-min.css">
+</head>
+
+<body>
+
+
+
+    <!-- Section of Navbar -->
+    <section class="border-bottom position-sticky header color-white">
+        <div class="container-xxl">
+            <nav class="navbar py-3 rn-header navbar-expand-xl">
+                <div class="container-fluid">
+                    <div class="logo-thumbnail position-relative logo-custom-css">
+                        <a class="logo-dark pe-4" href="index.html"><img src="Images/logo-dark.png" height="35px"
+                                alt="nft-logo"></a>
+                    </div>
+                    <div class="d-flex ms-auto">
+                        <div class=" me-3 py-2 d-none d-md-block d-xl-none w-mobile-screen">
+                            <form class="d-flex border px-3 py-auto rounded-3 border-1">
+                                <input class="form-control nav-text-color-grey pe-0 bg-transparent border-0"
+                                    type="search" placeholder="Search Here" aria-label="Search">
+                                <button class="btn bg-transparent pe-0" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass nav-text-color-grey"></i></button>
+                            </form>
+                        </div>
+                        <div class="py-2 d-none d-lg-block d-xl-none me-3 d-flex align-items-center">
+                            <button class="border-0 p-2 btn-bg-blue rounded-3">
+                                Wallet Connect
+                            </button>
+                        </div>
+                        <div class="py-2 d-none w-bell d-sm-block d-xl-none me-3">
+                            <p class="mb-0 rounded-circle nav-border-color p-2">
+                                <a href="">
+                                    <i class="fa-regular nav-text-color-grey fa-bell m-1"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="py-2 d-none w-bell d-sm-block d-xl-none me-3">
+                            <p class="mb-0 nav-border-color rounded-circle p-1">
+                                <a href="">
+                                    <i class="fa-regular nav-text-color-grey fa-moon p-2"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler rounded-circle p-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon fs-6"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-bold nav-text-color-grey dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item disabled" href="#">Home Page 1</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">Home Page 2</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">Home Page 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold nav-text-color-grey" href="#Create">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-bold nav-text-color-grey dropdown-toggle" href="#Explore" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Explore
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#Explore">NFTs</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-bold nav-text-color-grey dropdown-toggle" href="#Best-creator" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#Best-creator">Our Best Creator</a></li>
+                                    <li><a class="dropdown-item" href="#Newest">Newest Items</a></li>
+                                    <li><a class="dropdown-item" href="#Bidding">Live Bidding</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-bold nav-text-color-grey dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#Best-creator">Our Best Creator</a></li>
+                                    <li><a class="dropdown-item" href="#Newest">Newest Items</a></li>
+                                    <li><a class="dropdown-item" href="#Bidding">Live Bidding</a></li>
+                                    <li><a class="dropdown-item" href="#Create">Create and Sell Your NFTs</a></li>
+                                    <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a href="#Contact" class="nav-link fw-bold nav-text-color-grey">Contact</a>
+                            </li>
+                            <!-- <div class="d-block py-2 d-lg-none">
+                                <form class="d-flex border w-mobile-screen px-3 rounded-3 border-1">
+                                    <input class="form-control nav-text-color-grey pe-0 bg-transparent border-0"
+                                        type="search" placeholder="Search Here" aria-label="Search">
+                                    <button class="btn bg-transparent pe-0" type="submit"><i
+                                            class="fa-solid fa-magnifying-glass nav-text-color-grey"></i></button>
+                                </form>
+                            </div> -->
+                        </ul>
+                        <div class=" me-3 py-2 d-none d-xl-block w-mobile-screen">
+                            <form class="d-flex border px-3 rounded-3 border-1">
+                                <input class="form-control nav-text-color-grey pe-0 bg-transparent border-0"
+                                    type="search" placeholder="Search Here" aria-label="Search">
+                                <button class="btn bg-transparent pe-0" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass nav-text-color-grey"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="py-2 d-lg-none d-xl-block me-3 d-flex align-items-center">
+                            <button class="border-0 p-2 btn-bg-blue rounded-3">
+                                Wallet Connect
+                            </button>
+                        </div>
+                        <div class="d-flex">
+                            <div class="py-2 w-bell d-sm-none me-3">
+                                <p class="mb-0 rounded-circle nav-border-color p-2">
+                                    <a href="">
+                                        <i class="fa-regular nav-text-color-grey fa-bell m-1"></i>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="py-2 w-bell d-sm-none">
+                                <p class="mb-0 nav-border-color rounded-circle p-1">
+                                    <a href="">
+                                        <i class="fa-regular nav-text-color-grey fa-moon p-2"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class=" me-3 py-2 d-md-none w-mobile-screen">
+                            <form class="d-flex border px-3 rounded-3 border-1">
+                                <input class="form-control nav-text-color-grey pe-0 bg-transparent border-0"
+                                    type="search" placeholder="Search Here" aria-label="Search">
+                                <button class="btn bg-transparent pe-0" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass nav-text-color-grey"></i></button>
+                            </form>
+                        </div>
+                        <div class="py-2 d-none w-bell d-xl-block me-3">
+                            <p class="mb-0 rounded-circle nav-border-color p-2">
+                                <a href="">
+                                    <i class="fa-regular nav-text-color-grey fa-bell m-1"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="py-2 d-none w-bell d-xl-block ">
+                            <p class="mb-0 nav-border-color rounded-circle p-1">
+                                <a href="">
+                                    <i class="fa-regular nav-text-color-grey fa-moon p-2"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Of Navbar -->
+
+
+    <!-- Section Of Hero -->
+
+    <section class="Hero my-5">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-sm-6 Hero-card col-xl-4">
+                    <div class=" position-relative border-0 p-3 card">
+                        <button class="btn-css border-0 btn-position rounded-circle p-3">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="btn-css2 d-sm-none border-0 btn-position2 rounded-circle p-3">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <div class="Thumbnail">
+                            <a href="" class="link-img-position">
+                                <img src="Images-of-new/banner-01.jpg" class="img-fluid rounded-3" alt="">
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h4 class="text-white">
+                                <a href=""
+                                    class="link-underline Text-hover link-underline-opacity-0 fw-bold text-white">
+                                    Cubic Bazier
+                                </a>
+                            </h4>
+                            <span class="color-span">
+                                John lee
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-none d-sm-block Hero-card col-xl-4">
+                    <div class=" position-relative border-0 p-3 card">
+                        <button class="btn-css2 d-xl-none border-0 btn-position2 rounded-circle p-3">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <div class="Thumbnail">
+                            <a href="" class="link-img-position">
+                                <img src="Images-of-new/banner-02.jpg" class="img-fluid rounded-3" alt="">
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h4 class="text-white">
+                                <a href=""
+                                    class="link-underline Text-hover link-underline-opacity-0 fw-bold text-white">
+                                    Faminho24
+                                </a>
+                            </h4>
+                            <span class="color-span">
+                                Mr.Alamin
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 Hero-card d-none d-xl-block col-xl-4">
+                    <div class=" position-relative border-0 p-3 card">
+                        <button class="btn-css2 d-none d-xl-block border-0 btn-position2 rounded-circle p-3">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <div class="Thumbnail">
+                            <a href="" class="link-img-position">
+                                <img src="Images-of-new/banner-03.jpg" class="img-fluid rounded-3" alt="">
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h4 class="text-white">
+                                <a href=""
+                                    class="link-underline Text-hover link-underline-opacity-0 fw-bold text-white">
+                                    Tzniistan
+                                </a>
+                            </h4>
+                            <span class="color-span">
+                                Ms.maybin
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- End Of Hero -->
+
+
+    <!-- Section Of Best Creator -->
+
+    <section class="Best-Creator my-5" id="Best-creator">
+        <div class="container-xl">
+
+            <!-- Section of Title -->
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1 class="fw-bold">Our Best Creators</h1>
+                </div>
+                <div class="d-flex col-12 col-md-6 mt-3 mt-md-0 justify-content-start justify-content-md-end align-items-center">
+                    <label for="" class="color-light w-sm w-md fs-6 justify-content-md-end d-flex">SORT BY:</label>
+                    <!-- <select class="form-select border-1 fw-bold border" aria-label="Default select example">
+                        <option class="fw-bold py-2 my-2" selected>Top Rated</option>
+                        <option class="fw-bold py-2 my-2" value="1">Best Seller</option>
+                        <option class="fw-bold py-2 my-2" value="2">Recently Added</option>
+                        <option class="fw-bold py-2 my-2" value="3">Verified</option>
+                    </select> -->
+                    <div class="list-choice m-2">
+                        <div class="list-choice-title">Select Here</div>
+                        <div class="list-choice-objects">
+                            <label>
+                                <input type="radio" name="month" /> <span>Top Rated</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="month" /> <span>Best Seller</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="month" /> <span>Recently Added</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="month" /> <span>Verified</span>
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section of main -->
+            <div class="mt-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">1</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-1.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">BroadBand</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">2</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-2.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">Marks</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">3</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-3.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">jone lee</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">4</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-4.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">Malinga</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">5</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-5.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">Favis</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">6</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-6.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">Fakir</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">7</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-7.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">Saqib</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <div class="bg-white position-relative p-4 rounded-3">
+
+                            <!-- number -->
+
+                            <div class="position-number z-2">
+                                <p class="display-2 fw-bold text-light">8</p>
+                            </div>
+
+                            <div class="row ">
+
+                                <!-- Profile -->
+
+                                <div class="position-relative col-5 pe-0">
+                                    <img src="Images-of-new/client-9.png" class="rounded-circle border-3 border"
+                                        height="90px" alt="">
+                                    <i class="fa fa-check icon-check icon-size bg-primary icon-position-creator rounded-circle px-1 py-1 position-absolute fw-bold text-light"
+                                        aria-hidden="true"></i>
+                                </div>
+
+                                <!-- After Profile The Text -->
+
+                                <div class="col-7 ps-2 d-flex align-items-center">
+                                    <div class="align-items-center">
+                                        <p class="fw-bold mb-0 fs-5">Mikel</p>
+                                        <p class="mb-0 text-muted">$2500,000</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- End of Best Creator -->
+
+
+    <!-- Section of Newest Items -->
+
+    <section class="Section-Newest my-5" id="Newest">
+        <div class="container-xl">
+
+            <!-- Title -->
+
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-8">
+                    <h1 class="fw-bold">Newest Items</h1>
+                </div>
+
+                <div class="col-4 align-items-center d-flex justify-content-end">
+                    <a class="link-underline link-underline-opacity-0 text-black" href="">
+                        View All <i class="fa ms-1 fa-arrow-right fa-sm"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-5 justify-content-center justify-content-lg-start">
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-05.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <!-- End Of Newest Items -->
+
+
+    <!-- Section of Live Bidding -->
+
+    <section class="Section-Newest my-5" id="Bidding">
+        <div class="container-xl">
+
+            <!-- Title -->
+
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-6">
+                    <h1 class="fw-bold">Live Bidding</h1>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-5 justify-content-center justify-content-lg-start">
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-05.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <!-- End OF Live Bidding -->
+
+
+    <!-- Section of Create and Sell -->
+
+    <section class="Section-Create my-5" id="Create">
+        <div class="container-xl">
+
+            <!-- Title -->
+
+            <div class="row justify-content-between align-items-center">
+
+                <div class="">
+                    <h1 class="fw-bold">Create and sell your NFTs</h1>
+                </div>
+
+            </div>
+
+
+            <div class="row justify-content-center justify-content-lg-start mt-5">
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-3 h-100 border-0">
+                        <a href="" class="link-underline link-underline-opacity-0">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="Images-of-new/shape-7.png" alt="Shape">
+                                </div>
+                                <h6 class="card-subtitle mb-5 text-body-tertiary">STEP-01</h6>
+                                <h5 class="card-title mb-4 link-hover-create fs-4">Set up your wallet</h5>
+                                <p class="card-text text-secondary mb-5">Powerful features and inclusions, which makes
+                                    Nuron
+                                    standout, easily
+                                    customizable and scalable.</p>
+                                <a href="#" class="card-link fw-light"><i
+                                        class="fa fa-arrow-right link-icon-hover text-body-tertiary fa-xl"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-3 h-100 border-0">
+                        <a href="" class="link-underline link-underline-opacity-0">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="Images-of-new/shape-1.png" alt="Shape">
+                                </div>
+                                <h6 class="card-subtitle mb-5 text-body-tertiary">STEP-02</h6>
+                                <h5 class="card-title mb-4 link-hover-create fs-4">Create your collection</h5>
+                                <p class="card-text text-secondary mb-5">A great collection of beautiful website
+                                    templates
+                                    for your need. Choose the best suitable template.
+                                </p>
+                                <a href="#" class="card-link fw-light"><i
+                                        class="fa fa-arrow-right link-icon-hover text-body-tertiary fa-xl"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-3 h-100 border-0">
+                        <a href="" class="link-underline link-underline-opacity-0">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="Images-of-new/shape-5.png" alt="Shape">
+                                </div>
+                                <h6 class="card-subtitle mb-5 text-body-tertiary">STEP-03</h6>
+                                <h5 class="card-title mb-4 link-hover-create fs-4">Add your NFT's</h5>
+                                <p class="card-text text-secondary mb-5">We've made the template fully responsive, so it
+                                    looks great on all devices: desktop, tablets and.
+                                </p>
+                                <a href="#" class="card-link fw-light"><i
+                                        class="fa fa-arrow-right link-icon-hover text-body-tertiary fa-xl"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-3 h-100 border-0">
+                        <a href="" class="link-underline link-underline-opacity-0">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="Images-of-new/shape-6.png" alt="Shape">
+                                </div>
+                                <h6 class="card-subtitle mb-5 text-body-tertiary">STEP-04</h6>
+                                <h5 class="card-title mb-4 link-hover-create fs-4">Sell your NFT's</h5>
+                                <p class="card-text text-secondary mb-5">I throw myself down among the tall grass by the
+                                    stream as I lie close to the earth NFT's.
+                                </p>
+                                <a href="#" class="card-link fw-light"><i
+                                        class="fa fa-arrow-right link-icon-hover text-body-tertiary fa-xl"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- End of Create and Sell -->
+
+
+    <!-- Section of Explore -->
+
+    <section class="Section-Explore my-5" id="Explore">
+        <div class="container-xl">
+
+            <!-- Title -->
+
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-12 col-md-6 mb-md-0 mb-3">
+                    <h1 class="fw-bold">Explore Product</h1>
+                </div>
+
+                <div class="col-12 col-md-6 d-flex justify-content-md-end">
+                    <button class="btn btn-primary p-2 px-3 rounded-3">
+                        Filter <i class="fa-solid ms-2 fa-filter "></i>
+                    </button>
+                </div>
+
+            </div>
+
+
+
+            <!-- Main -->
+
+
+
+            <div class="row mt-5 justify-content-center justify-content-lg-start">
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-05.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-1.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-2.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-3.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-06.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-5.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-6.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-7.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-07.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-5.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-6.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-7.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-5.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-6.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-7.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-09.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-5.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-6.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-7.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-5 col-lg-4 mb-4">
+                    <div class="card p-1 border-0">
+                        <img src="Images-of-new/portfolio-11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="position-relative d-flex w-25">
+                                    <a href=""><img src="Images-of-new/client-5.png"
+                                            class="rounded-circle position-profile-new border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-6.png"
+                                            class="rounded-circle position-profile-new2 border border-2" height="35px"
+                                            alt=""></a>
+                                    <a href=""><img src="Images-of-new/client-7.png"
+                                            class="rounded-circle position-profile-new3 border border-2" height="35px"
+                                            alt=""></a>
+
+                                </div>
+                                <p class="text-muted fs-bit mb-0 position-profile-new4">9+ Place bit</p>
+                                <p class="mb-0"><button class="btn"><i class="fa-solid mt-0 mb-0 fa-ellipsis fa-lg"
+                                            style="color: #000000;"></i></button></p>
+                            </div>
+                            <p class="fw-bold fs-5 text-dark mb-0 mt-3 Eth-para">Preatent</p>
+                            <p class="fw-bold text-muted mb-0 mt-1 Eth-para">Highest bid 1/20</p>
+
+                            <div class="d-flex justify-content-between">
+                                <p class="mt-1 mb-0 "><a
+                                        class="link-offset-2 Bid-link fw-bold link-underline link-underline-opacity-0"
+                                        href="#">0.244wETH</a></p>
+                                <p class=" mb-0 mt-2 text-muted" style="font-size: 13px;"> <i
+                                        class="fa-solid fa-heart fa-sm" style="color: #dedede;"></i> 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- End of Explore -->
+
+
+    <!-- Section of Top Collections -->
+
+    <section class="Section-Top my-5">
+        <div class="container-xl">
+
+            <!-- Title -->
+
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-8">
+                    <h1 class="fw-bold">Top Collections</h1>
+                </div>
+
+                <div class="col-4 align-items-center d-flex justify-content-end">
+                    <a class="link-underline link-underline-opacity-0 text-black" href="">
+                        View All <i class="fa ms-1 fa-arrow-right fa-sm"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-5 justify-content-center justify-content-lg-start">
+                <di class="col-11 mb-4 col-sm-5 col-lg-4 col-xl-3">
+                    <div class="card p-3 border-0">
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="position-relative">
+                                <img src="Images-of-new/collection-lg-01.jpg" class="rounded-3 card-img-top" alt="...">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <img src="Images-of-new/collection-sm-01.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-02.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-03.jpg" class="Image-size" alt="">
+                                </div>
+                                <div class="Img-Top-Postions">
+                                    <img src="Images-of-new/client-15.png" class="Profile-w-h profile-size-top" alt="">
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center justify-content-between p-0 pt-3">
+                                <p class="card-title fs-5 mb-0 fw-bold link-hover-top text-dark">Cubic Trad</p>
+                                <button class="border-0 text-secondary p-1 px-2 rounded-1 Button-Top-Hover">
+                                    27 Items
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </di justify-content-center justify-content-lg-startv>
+                <di class="col-11 mb-4 col-sm-5 col-lg-4 col-xl-3">
+                    <div class="card p-3 border-0">
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="position-relative">
+                                <img src="Images-of-new/collection-lg-03.jpg" class="rounded-3 card-img-top" alt="...">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <img src="Images-of-new/collection-sm-04.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-05.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-06.jpg" class="Image-size" alt="">
+                                </div>
+                                <div class="Img-Top-Postions">
+                                    <img src="Images-of-new/client-12.png" class="Profile-w-h profile-size-top" alt="">
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center justify-content-between p-0 pt-3">
+                                <p class="card-title fs-5 mb-0 fw-bold link-hover-top text-dark">Diamond Dog</p>
+                                <button class="border-0 text-secondary p-1 px-2 rounded-1 Button-Top-Hover">
+                                    20 Items
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </di justify-content-center justify-content-lg-startv>
+                <di class="col-11 mb-4 col-sm-5 col-lg-4 col-xl-3">
+                    <div class="card p-3 border-0">
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="position-relative">
+                                <img src="Images-of-new/collection-lg-02.jpg" class="rounded-3 card-img-top" alt="...">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <img src="Images-of-new/collection-sm-07.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-08.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-09.jpg" class="Image-size" alt="">
+                                </div>
+                                <div class="Img-Top-Postions">
+                                    <img src="Images-of-new/client-13.png" class="Profile-w-h profile-size-top" alt="">
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center justify-content-between p-0 pt-3">
+                                <p class="card-title fs-5 mb-0 fw-bold link-hover-top text-dark">Morgan11</p>
+                                <button class="border-0 text-secondary p-1 px-2 rounded-1 Button-Top-Hover">
+                                    15 Items
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </di justify-content-center justify-content-lg-startv>
+                <div class="col-11 mb-4 col-sm-5 col-lg-4 col-xl-3">
+                    <div class="card p-3 border-0">
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="position-relative">
+                                <img src="Images-of-new/collection-lg-04.jpg" class="rounded-3 card-img-top" alt="...">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <img src="Images-of-new/collection-sm-10.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-11.jpg" class="Image-size" alt="">
+                                    <img src="Images-of-new/collection-sm-12.jpg" class="Image-size" alt="">
+                                </div>
+                                <div class="Img-Top-Postions">
+                                    <img src="Images-of-new/client-14.png" class="Profile-w-h profile-size-top" alt="">
+                                </div>
+                            </div>
+                            <div class="card-body d-flex align-items-center justify-content-between p-0 pt-3">
+                                <p class="card-title fs-5 mb-0 fw-bold link-hover-top text-dark">Orthogon#720</p>
+                                <button class="border-0 text-secondary p-1 px-2 rounded-1 Button-Top-Hover">
+                                    10 Items
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- End of Top Collections -->
+
+
+    <!-- Section of Footer -->
+
+
+    <section class="Section-Footer bg-white p-5 mt-5">
+        <div class="container-xl mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div>
+                        <!-- Title -->
+                        <div>
+                            <img src="Images/logo-dark.png" height="35px" alt="">
+                        </div>
+                        <!-- Text -->
+                        <div class="">
+                            <p class="text-light-body Css-text-footer">Created with the collaboration of over 60 of the
+                                world's best Nuron Artists.</p>
+                        </div>
+                        <div class="widget-bottom mt--40 pt--40">
+                            <h6 class="title">Get The Latest Nuron Updates </h6>
+                            <div class="input-group d-flex mt-3">
+                                <input type="text" class="bg-color--2 w-footer-input focus rounded-start-2 p-2 px-3"
+                                    placeholder="Your username" aria-label="Recipient's username">
+                                <div class="input-group-append w-sm">
+                                    <button
+                                        class="border-0 h-100 p-2 p-sm-2 px-sm-3 btn-primary-alta btn-outline-secondary rounded-end-2"
+                                        type="button">Subscribe</button>
+                                </div>
+                            </div>
+                            <div class="newsletter-dsc">
+                                <p>Email is safe. We don't spam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-sm-center justify-content-start">
+                    <!-- <div class="footer-widget widget-quicklink">
+                        <h6 class="widget-title fw-bold">Nuron</h6>
+                        <ul class="footer-list-one">
+                            <li class="single-list"><a href="#">Protocol Explore</a></li>
+                            <li class="single-list"><a href="#">System Token</a></li>
+                            <li class="single-list"><a href="#">Otimize Time</a></li>
+                            <li class="single-list"><a href="#">Visual Checking</a></li>
+                            <li class="single-list"><a href="#">Fadeup System</a></li>
+                            <li class="single-list"><a href="#">Activity Log</a></li>
+                            <li class="single-list"><a href="#">System Auto Since</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="">
+                        <h6 class="widget-title fw-bold">
+                            Nuron
+                        </h6>
+                        <ul type="none" class="p-0">
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Protocol Explore</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">System Token</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Otimize Time</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Visual Checking</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Fadeup System</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Activity Log</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">System Auto
+                                    Since</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-start justify-content-lg-center">
+                    <!-- <div class="footer-widget widget-information">
+                        <h6 class="widget-title fw-bold">Information</h6>
+                        <ul class="footer-list-one">
+                            <li class="single-list"><a href="#">Market Explore</a></li>
+                            <li class="single-list"><a href="#">Ready Token</a></li>
+                            <li class="single-list"><a href="#">Main Option</a></li>
+                            <li class="single-list"><a href="#">Product Checking</a></li>
+                            <li class="single-list"><a href="blog.html">Blog Grid</a></li>
+                            <li class="single-list"><a href="about.html">About Us</a></li>
+                            <li class="single-list"><a href="#">Fix Bug </a></li>
+                        </ul>
+                    </div> -->
+                    <div>
+                        <h6 class="widget-title fw-bold">
+                            Information
+                        </h6>
+                        <ul type="none" class="p-0">
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Market Explore</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Ready Token</a></li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Main Option</a></li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Product Checking</a>
+                            </li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">Blog Grid</a></li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">About Us</a></li>
+                            <li class="mb-2"><a href=""
+                                    class="link-underline link-underline-opacity-0 link-footer-css">fix Bug</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-sm-center justify-content-start">
+                    <div class="">
+                        <h6 class="widget-title fw-bold">Recent Sold Out</h6>
+                        <div class="creators">
+                            <ul class="footer-recent-post">
+                                <li class="recent-post">
+                                    <div class="thumbnail">
+                                        <a href="product-details.html">
+                                            <img src="Images-of-new/portfolio-01.jpg" alt="Product Images">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title"><a href="product-details.html">#21 The Wonder</a></h6>
+                                        <p>Highest bid 1/20</p>
+                                        <span class="price">0.244wETH</span>
+                                    </div>
+                                </li>
+                                <li class="recent-post border-top-1">
+                                    <div class="thumbnail">
+                                        <a href="product-details.html">
+                                            <img src="Images-of-new/portfolio-02.jpg" alt="Product Images">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title"><a href="product-details.html">Diamond Dog</a></h6>
+                                        <p>Highest bid 1/20</p>
+                                        <span class="price">0.022wETH</span>
+                                    </div>
+                                </li>
+                                <li class="recent-post border-top-1">
+                                    <div class="thumbnail">
+                                        <a href="product-details.html">
+                                            <img src="Images-of-new/portfolio-03.jpg" alt="Product Images">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title"><a href="product-details.html">Morgan11</a></h6>
+                                        <p>Highest bid 1/20</p>
+                                        <span class="price">0.892wETH</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copy-right-one ptb--20 bg-color--1" id="Contact">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-3 mb-md-2 mb-lg-0 col-md-12 col-sm-12">
+                    <div class="copyright-left">
+                        <span>©2022 Nuron, Inc. All rights reserved.</span>
+                        <ul class="privacy">
+                            <li><a href="terms-condition.html">Terms</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="copyright-right">
+                        <ul class="social-copyright">
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of footer -->
+
+
+
+
+
+
+
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/279c9c1a29.js"></script>
+    <script src="Practice-8.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+
+</body>
+
+
+</html>
